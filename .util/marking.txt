@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.8, pytest-8.0.0, pluggy-1.4.0
+rootdir: /home/runner/work/Assessment-Backend-Week-1/Assessment-Backend-Week-1
+collected 85 items
+
+days_api/test_api.py .FFFFFFFFFFFFFFFFFFFF.FFFFFFFFFFFFFFFFFFFF.FFFFFFFF [ 60%]
+FFF.FFFFF                                                                [ 70%]
+days_api/test_date_functions.py ...............FFFFF.....                [100%]
+
+======================== 61 failed, 24 passed in 0.27s =========================
+************* Module app
+days_api/app.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+days_api/app.py:74:4: W0621: Redefining name 'app_history' from outer scope (line 11) (redefined-outer-name)
+days_api/app.py:72:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+************* Module date_functions
+days_api/date_functions.py:20:8: R1720: Unnecessary "elif" after "raise", remove the leading "el" from "elif" (no-else-raise)
+days_api/date_functions.py:4:0: W0611: Unused timedelta imported from datetime (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.78/10 (previous run: 9.78/10, +0.00)
+
